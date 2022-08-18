@@ -1,0 +1,6 @@
+{
+    "nuxt.isNuxtApp": true,
+    "marquee.widgets.npm-stats.packageNames": [
+        "commerce"
+    ]
+}
