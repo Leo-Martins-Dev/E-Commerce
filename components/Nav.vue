@@ -11,7 +11,7 @@
     >
       <v-toolbar-title
         @click="$router.push('/')"
-        class="text-md-h5 font-weight-bold pointer"
+        class="text-md-h5 font-weight-bold pointer nav-bar"
       >
         E-Commerce
       </v-toolbar-title>
@@ -31,8 +31,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "App",
+};
 </script>
 
 <style>
+.nav-bar {
+  animation: jello;
+  animation-duration: 3s;
+}
 </style>
